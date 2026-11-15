@@ -1,0 +1,20 @@
+{
+    "board-marker": {
+      "tip_dist_mm": 70.0,
+      "tip_height_mm": 2.0
+    },
+    "Probe": {
+      "tip_dist_mm": 60.0,
+      "tip_height_mm": 0.0,
+      "angle": 0.0
+    },
+    "zig": {
+      "tip_dist_mm": 85.0,
+      "tip_height_mm": -1.0,
+      "angle": 0.0,
+      "offset_mm": 4.5,
+      "range_mm": 6.4
+    }
+  
+  
+  }

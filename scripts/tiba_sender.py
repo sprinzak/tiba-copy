@@ -41,7 +41,7 @@ interface.state.has_ros = (
     True  # Set to false if you don't need to communicate with the server
 )
 
-base_path = "./../robots/tiba/settings"  # tiba for London
+base_path = "./../robots/dafi/settings"  # tiba for Weizmann
 itiba = interface.TibaInterface(
     init_node="tiba_notebook",
     base_path=base_path,
@@ -86,7 +86,7 @@ def brush_name():
     # return 'Molotow-brush'
     # return 'HK-Calli-med-02'
     # return 'Probe'
-    return "Chisel-brush-manifold-01"
+    return "zig"
     return "Thin-manifold-01"
     return "Labor-gold-0_0"
     return "Spongie"
@@ -524,15 +524,15 @@ def load_file():
     # fl = paths[params.tag_index]
     # fl = os.path.join(base_path, 'demo_slm_tag_04_CREAM_s1.2_019.json')
     # fl = '/Users/colormotor/Dropbox/transfer_box/data/roman/reconstructions/demo_slm_gml_01_037.json'
-    fl = os.path.expanduser(
-        "~/Dropbox/transfer_box/data/anna/outputs/demo_slm_anna_02_099.json"
-    )
-    fl = os.path.expanduser(
-        "~/Dropbox/transfer_box/data/calligraph/outputs/demo_slm_gml_01_045.json"
-    )
-    fl = os.path.expanduser(
-        "~/Dropbox/transfer_box/data/calligraph/outputs/demo_slm_portrait_01_116.json"
-    )
+    # fl = os.path.expanduser(
+    #     "~/Dropbox/transfer_box/data/anna/outputs/demo_slm_anna_02_099.json"
+    # )
+    # fl = os.path.expanduser(
+    #     "~/Dropbox/transfer_box/data/calligraph/outputs/demo_slm_gml_01_045.json"
+    # )
+    # fl = os.path.expanduser(
+    #     "~/Dropbox/transfer_box/data/calligraph/outputs/demo_slm_portrait_01_116.json"
+    # )
     # fl = os.path.expanduser('~/Dropbox/transfer_box/data/roman/portraits/demo_slm_portrait_01_135.json')
     # fl = os.path.expanduser('~/Dropbox/transfer_box/data/calligraph/outputs/demo_asia_areafill_01_acal4_n100_s3000_bsp1_lr2.0_mse20.0_001.json')
     name = "demo_asia_areafill_01_acal3_n300_s100_bsp1_lr1.5_mse10.0_001"
@@ -595,11 +595,11 @@ def load_file():
     # fl = os.path.expanduser(f'~/Dropbox/transfer_box/data/calligraph/outputs/{name}.json')
     # name = 'ben_demo_asia_areafill_01_zcal2_n150_s500_bsp1_lr1.5_mse10.0_abl-x_001'
     # name = 'ben_demo_asia_areafill_01_acal5_n150_s500_bsp1_lr1.5_mse10.0_abl-x_001'
-    fl = os.path.expanduser(
-        f"~/Dropbox/transfer_box/data/calligraph/outputs/{name}.json"
-    )
-    fl = '/home/danielsp/Downloads/camel_16strokes_seed0_best.svg'
-    fl = './tiba.svg'
+    # fl = os.path.expanduser(
+    #     f"~/Dropbox/transfer_box/data/calligraph/outputs/{name}.json"
+    # )
+    fl = '/home/danielsp/Downloads/repro_area_12_R_abl-x_001.json'
+    # fl = './tiba.svg'
     # name = "bez5"
     # fl = os.path.expanduser(
     #     f"~/Dropbox/develop_box/py5sketches/drawlab_vectorize/{name}.bez"
